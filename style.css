@@ -1,0 +1,60 @@
+* {
+    font-family: Roboto;
+}
+
+body {
+    display: flex;
+    flex: 1;
+    gap: 30px;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 2;
+}
+
+
+.background {
+    width: auto;
+    height: 100vh;
+    position: relative;
+}
+
+.photo-src {
+    position: absolute;
+    bottom: 5px;
+}
+
+.logo {
+    position: absolute;
+    top: 100px;
+    background-color: rgba(0, 0, 0, 0.528);
+    width: 455px;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+input {
+    width: 300px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.submit {
+    margin-top: 40px;
+}
